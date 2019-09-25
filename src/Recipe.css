@@ -1,0 +1,33 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(80, 80, 80);
+  margin: 20px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, #fff1eb 0%, #daedf6 100%);
+  align-items: center;
+  max-width: 34%;
+}
+
+.ingredient {
+  list-style-type: none;
+  word-wrap: normal;
+  padding: 2px;
+}
+
+.image {
+  border-radius: 40%;
+  width: 90%;
+  height: auto;
+  padding: 5px;
+}
+
+.dish {
+  font-size: 1.7rem;
+  padding: 5px;
+}
+
+.calories {
+  padding: 5px;
+}
