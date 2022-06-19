@@ -48,17 +48,12 @@ const App = () => {
         <div className='App'>
             <h1 className='heading'>Search Recipes By Ingredient: </h1>
             <form onSubmit={getSearch} className='search-form'>
-                <input
-                    className='search-bar'
-                    type='text'
-                    value={search}
-                    onChange={updateSearch}
-                />
+                <input className='search-bar' type='text' value={search} onChange={updateSearch} />
                 <button className='search-button' type='submit'>
                     Search
                 </button>
             </form>
-            <img className='image' src={bgimage} alt='' />
+            <img className='main-image' src={bgimage} alt='' />
             <div className='recipes'>
                 {recipes.map((recipe) => (
                     <Recipe
